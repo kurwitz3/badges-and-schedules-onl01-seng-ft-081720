@@ -17,10 +17,11 @@ speakers.each_with_index do |person,number|
  rooms
 end
 def printer()
- a = batch_badge_creator
- a.cycle(1){|x| puts x } 
-b = assign_rooms
-b.cycle(1){|b| puts b }
+  batach_badge_creator.each do |x|
+    puts x 
+  end 
+  assign_rooms.each do |z|
+    puts z 
 end 
 
 
