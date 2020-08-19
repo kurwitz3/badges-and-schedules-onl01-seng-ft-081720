@@ -16,7 +16,7 @@ speakers.each_with_index do |person,number|
  end
  rooms
 end
-def printer()
+def printer(attendees)
   batach_badge_creator.each do |x|
     puts x 
   end 
