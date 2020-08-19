@@ -17,7 +17,7 @@ speakers.each_with_index do |person,number|
  rooms
 end
 def printer(attendees)
-  batach_badge_creator.each do |x|
+  batch_badge_creator.each do |x|
     puts x 
   end 
   assign_rooms.each do |z|
